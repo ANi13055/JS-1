@@ -10,21 +10,24 @@ body {
 }
 
 .container {
-    margin: 25% auto;
-    width: 30vw;
-    text-align: center;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     border: 1px solid;
     padding: 5px;
+    width: 250px;
+    text-align: center;
 }
 
 .table {
     margin-top: 20px;
-    text-align: left;
     border: 1px solid;
-    width: 30vw;
+    width: 250px;
 }
 
 .table td {
