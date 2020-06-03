@@ -22,6 +22,11 @@ document.getElementById('contact').innerHTML = contact;
 console.log(contact);
 
 
+// reload btn
+function reload() {
+    location.reload();
+}
+
 
 // same output function
 
